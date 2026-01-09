@@ -4,19 +4,21 @@
 This project is a Python script that scrapes data from a website and writes the collected information to structured output files. It demonstrates practical use of web data extraction, file I/O operations, and basic automation concepts.
 
 ## Features
-- Scrapes data from a specified website
-- Processes and extracts relevant content
-- Creates output files to store scraped data
-- Demonstrates basic automation using Python
+- Allows user to select one or multiple data types to extract
+- Creates user-defined folders and output files
+- Optionally appends timestamps to output files
+- Automatically sanitizes file and folder names
 
 ## Technologies Used
 - Python
 
 ## How to Run
-1. Clone the repository to your local machine
-2. Ensure Python is installed
-3. Run the script using:
-   python scraper.py
+The script prompts the user for:
+- Website URL
+- Data types to extract (title, headings, links, paragraphs)
+- Folder name for saving results
+- Output file name
+- Optional timestamp for file versioning
 
 ## What I Learned
 - How to scrape data from websites using Python
